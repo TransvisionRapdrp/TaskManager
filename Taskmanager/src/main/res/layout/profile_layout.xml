@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    android:padding="@dimen/dp20"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp10"
+        android:drawableTop="@drawable/ic_account"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txt_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/text18"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txt_designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp5"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/text14"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txt_vesrion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/text14"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_marginTop="@dimen/dp10"
+        android:id="@+id/txt_logout"
+        android:layout_width="100dp"
+        android:layout_height="@dimen/text25"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Logout"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
